@@ -15,7 +15,7 @@
 ### Screenshots:
 Default look with Tunnel and SSH scripts. Remove those if you think it's too messy.
 
-![Default Look](images/default_tmux.png)
+![My Tmux Configuration](images/updated_tmux.png)
 
 ### Installation:
 
