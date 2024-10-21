@@ -18,12 +18,7 @@ Default look with Tunnel and SSH scripts. Remove those if you think it's too mes
 ![Default Look](images/default_tmux.png)
 
 ### Installation:
-For clipboard support, please install **xclip** as well:
 
 ```bash
-sudo apt install xclip
-git clone https://github.com/hoodietramp/tmux_config.git
-cd tmux_config
-cp tmux.conf ~/.tmux.conf
-cp vpnIP_VM.sh ~/Scripts/
-chmod +x ~/Scripts/vpnIP_VM.sh
+chmod +x install.sh
+./install.sh
