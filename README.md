@@ -11,6 +11,37 @@
 - Plugin Enhancements: Integrated tmux plugins to boost productivity.
 - Bashrc Clean-up: Removed conflicting bashrc settings to streamline your shell environment.
 
+### Tmux Configuration Changes
+
+#### Color Scheme Updates:
+- Updated the status bar colors for enhanced visibility.
+- Changed active/inactive pane border colors for clearer differentiation.
+- Improved window title colors for better clarity.
+
+#### Enhanced Functionality:
+- **Mouse Support**: Enabled mouse mode for easier navigation.
+  - **Shortcut**: Scroll with the mouse wheel to activate copy mode.
+
+#### New Keybindings:
+- Reload tmux configuration with a simple keypress.
+  - **Shortcut**: `r` to reload the config and display a confirmation message.
+
+#### Clipboard Integration:
+- Automatically send copied text to the main clipboard using **xclip**.
+  - **Shortcut**: Press `Enter` in copy mode to copy to clipboard.
+
+#### Custom Scripts:
+- Added keybindings for frequently used scripts.
+  - **Example Shortcut**: Press `F1` to run your favorite script.
+
+#### Improved Pane Switching:
+- Updated shortcuts for seamless pane navigation using Alt + Arrow keys.
+  - **Shortcuts**: 
+    - `Alt + Left`: Switch to the left pane.
+    - `Alt + Right`: Switch to the right pane.
+    - `Alt + Up`: Switch to the upper pane.
+    - `Alt + Down`: Switch to the lower pane.
+
 ### Future Enhancements:
 - Color Customization: I'm on the lookout for more exciting color options. If you have suggestions, feel 
   free to contribute!
@@ -46,5 +77,11 @@ sudo apt install xclip
 Icon Support: For enhanced icon display, add the following alias to your shell configuration file:
 ```bash
 alias tmux='tmux -u'
+```
+4. **Verifying Icon Installation:**
+To check if the icons are displayed correctly, run the following command:
+```bash
+cd icons-in-terminal
+./print_icons.sh
 ```
 Feel free to adjust any sections to better match your style or add any other information you think is relevant!
