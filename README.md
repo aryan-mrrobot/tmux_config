@@ -21,7 +21,7 @@ Default look with Tunnel and SSH scripts. Remove those if you think it's too mes
 ![My Tmux Configuration](images/updated_tmux.png)
 
 ### Installation:
-1. **clone the repository **
+1. **clone the repository**
 ```bash
 git clonehttps://github.com/aryan-mrrobot/tmux_config.git
 
